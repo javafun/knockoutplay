@@ -1,0 +1,23 @@
+{
+  "name": "SimpleShowCase",
+  "version": "1.0.0",
+  "authors": [
+    "Vincent Yang <vincent.yang@orchard.com.au>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11",
+    "knockout": "~3.3.0"
+  }
+}

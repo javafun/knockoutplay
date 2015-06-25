@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Jewelery Show Case</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<h1>Welcome to our Jewelery collection.</h1>
+	<h2>Can you find anything interesting?</h2>
+	<div data-bind="foreach: jewels">
+		<div class="jewel">
+			<span data-bind="text:name"></span>
+			<img data-bind="attr:{src : src}"/>
+		</div>
+	</div>
+	<script src="js/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="js/bower_components/knockout/dist/knockout.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
